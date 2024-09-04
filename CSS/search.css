@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: rgba(183, 81, 183, 0.478);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgba(251, 250, 251, 0.478);
+    padding: 2vh;
+}
+
+header img{
+    border-radius: 10vh;
+    width: 10vh;
+}
+
+header h1{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 800;
+
+    padding-left: 75vh;
+}
+
+main{
+    min-height: calc(100vh - 103px);
+}
+
+main nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+main nav input{
+    width: 30vh;
+    height: 5vh;
+    border: solid rgb(215, 197, 197);
+    border-radius: 1vh;
+}
+
+main nav button{
+    width: 15vh;
+    height: 4.5vh;
+    border-radius: 1vh;
+    border: solid whitesmoke;
+}
+
+#meal {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+section div,
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1vh;
+
+    font-weight: 500;
+    font-size: large;
+}
+
+/* CONTENANT DES DIV */
+
+div img {
+    border-radius: 5vh;
+    padding: 3vh;
+    width: 50vh; 
+}
+
+div h2{
+    width: 40vh;
+    text-align: center;
+}
+
+div {
+    border: solid rgba(128, 128, 128, 0.055);
+    border-radius: 3vh;
+
+    background-color: rgba(227, 224, 221, 0.374);
+
+    margin: 5vh;
+
+    transition: transform 0.3s ease;
+}
+
+ div:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(251, 250, 251, 0.478);
+    padding: 2vh;
+
+    display: flex;
+    justify-content: center;
+}

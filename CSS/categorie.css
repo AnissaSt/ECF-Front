@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    
+}
+
+body {
+    background-color: rgba(183, 81, 183, 0.478);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgba(251, 250, 251, 0.478);
+    padding: 2vh;
+}
+
+header img {
+    border-radius: 10vh;
+    width: 10vh;
+}
+
+header h1 {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 800;
+
+    padding-left: 70vh;
+}
+
+
+/* SECTION */
+
+#categorie {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+
+    min-height: calc(100vh - 103px);
+}
+
+
+section div,
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1vh;
+
+    font-weight: 500;
+    font-size: large;
+}
+
+/* CONTENANT DES DIV */
+
+div img {
+    border-radius: 5vh;
+    padding: 3vh;
+    width: 50vh; 
+}
+
+div a{
+    width: 40vh;
+    text-align: center;
+}
+
+div {
+    border: solid rgba(128, 128, 128, 0.055);
+    border-radius: 3vh;
+
+    background-color: rgba(227, 224, 221, 0.374);
+
+    margin: 5vh;
+
+    transition: transform 0.3s ease;
+}
+
+ div:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: rgba(251, 250, 251, 0.478);
+    padding: 2vh;
+
+    display: flex;
+    justify-content: center;
+}
+/* RESPONSIVE apparement il n'y en a pas besoin ici le flexwrap fait déjà le travail*/
